@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72746CBF2B19FDCD00079B9B /* CreateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72746CBE2B19FDCD00079B9B /* CreateEventView.swift */; };
+		72746CC12B1A01D600079B9B /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72746CC02B1A01D600079B9B /* EventListView.swift */; };
+		72746CC32B1A033600079B9B /* GenerateQRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72746CC22B1A033600079B9B /* GenerateQRView.swift */; };
+		72746CC62B1A059700079B9B /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 72746CC52B1A059700079B9B /* CodeScanner */; };
 		729294D92B16E2D700C4BABE /* QR_ValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729294D82B16E2D700C4BABE /* QR_ValidationApp.swift */; };
 		729294DB2B16E2D700C4BABE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729294DA2B16E2D700C4BABE /* ContentView.swift */; };
 		729294DD2B16E2D800C4BABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729294DC2B16E2D800C4BABE /* Assets.xcassets */; };
 		729294E12B16E2D800C4BABE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729294E02B16E2D800C4BABE /* Preview Assets.xcassets */; };
+		729294E82B16E6A300C4BABE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729294E72B16E6A300C4BABE /* SignInView.swift */; };
+		729294EA2B16E6BA00C4BABE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729294E92B16E6BA00C4BABE /* SignUpView.swift */; };
+		729294EC2B16E6EF00C4BABE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729294EB2B16E6EF00C4BABE /* RoundedButton.swift */; };
+		729294F22B16F4C500C4BABE /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729294F12B16F4C500C4BABE /* DashboardView.swift */; };
+		72AADD522B1B62D00053CD64 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AADD512B1B62D00053CD64 /* Home.swift */; };
+		72B46A7F2B1AD2BD00DC0134 /* qrgenerateQRExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B46A7E2B1AD2BD00DC0134 /* qrgenerateQRExample.swift */; };
+		72B46A812B1AE51300DC0134 /* QRCodeResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B46A802B1AE51300DC0134 /* QRCodeResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72746CBE2B19FDCD00079B9B /* CreateEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventView.swift; sourceTree = "<group>"; };
+		72746CC02B1A01D600079B9B /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
+		72746CC22B1A033600079B9B /* GenerateQRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateQRView.swift; sourceTree = "<group>"; };
 		729294D52B16E2D700C4BABE /* QR Validation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Validation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		729294D82B16E2D700C4BABE /* QR_ValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_ValidationApp.swift; sourceTree = "<group>"; };
 		729294DA2B16E2D700C4BABE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		729294DC2B16E2D800C4BABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729294DE2B16E2D800C4BABE /* QR_Validation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QR_Validation.entitlements; sourceTree = "<group>"; };
 		729294E02B16E2D800C4BABE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		729294E72B16E6A300C4BABE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		729294E92B16E6BA00C4BABE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		729294EB2B16E6EF00C4BABE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		729294F12B16F4C500C4BABE /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		72AADD512B1B62D00053CD64 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		72B46A7E2B1AD2BD00DC0134 /* qrgenerateQRExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrgenerateQRExample.swift; sourceTree = "<group>"; };
+		72B46A802B1AE51300DC0134 /* QRCodeResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72746CC62B1A059700079B9B /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +74,11 @@
 		729294D72B16E2D700C4BABE /* QR Validation */ = {
 			isa = PBXGroup;
 			children = (
+				729294F02B16E7BA00C4BABE /* Helpers */,
+				729294EF2B16E7A800C4BABE /* ViewModels */,
+				729294EE2B16E79E00C4BABE /* Models */,
+				729294ED2B16E78E00C4BABE /* Views */,
 				729294D82B16E2D700C4BABE /* QR_ValidationApp.swift */,
-				729294DA2B16E2D700C4BABE /* ContentView.swift */,
 				729294DC2B16E2D800C4BABE /* Assets.xcassets */,
 				729294DE2B16E2D800C4BABE /* QR_Validation.entitlements */,
 				729294DF2B16E2D800C4BABE /* Preview Content */,
@@ -67,6 +92,45 @@
 				729294E02B16E2D800C4BABE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		729294ED2B16E78E00C4BABE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				729294DA2B16E2D700C4BABE /* ContentView.swift */,
+				729294E72B16E6A300C4BABE /* SignInView.swift */,
+				729294E92B16E6BA00C4BABE /* SignUpView.swift */,
+				729294F12B16F4C500C4BABE /* DashboardView.swift */,
+				72746CBE2B19FDCD00079B9B /* CreateEventView.swift */,
+				72746CC02B1A01D600079B9B /* EventListView.swift */,
+				72746CC22B1A033600079B9B /* GenerateQRView.swift */,
+				72B46A7E2B1AD2BD00DC0134 /* qrgenerateQRExample.swift */,
+				72B46A802B1AE51300DC0134 /* QRCodeResultView.swift */,
+				72AADD512B1B62D00053CD64 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		729294EE2B16E79E00C4BABE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		729294EF2B16E7A800C4BABE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		729294F02B16E7BA00C4BABE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				729294EB2B16E6EF00C4BABE /* RoundedButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +149,9 @@
 			dependencies = (
 			);
 			name = "QR Validation";
+			packageProductDependencies = (
+				72746CC52B1A059700079B9B /* CodeScanner */,
+			);
 			productName = "QR Validation";
 			productReference = 729294D52B16E2D700C4BABE /* QR Validation.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +180,9 @@
 				Base,
 			);
 			mainGroup = 729294CC2B16E2D700C4BABE;
+			packageReferences = (
+				72746CC42B1A059700079B9B /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 729294D62B16E2D700C4BABE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729294EA2B16E6BA00C4BABE /* SignUpView.swift in Sources */,
+				729294F22B16F4C500C4BABE /* DashboardView.swift in Sources */,
+				729294EC2B16E6EF00C4BABE /* RoundedButton.swift in Sources */,
+				72B46A7F2B1AD2BD00DC0134 /* qrgenerateQRExample.swift in Sources */,
+				729294E82B16E6A300C4BABE /* SignInView.swift in Sources */,
+				72B46A812B1AE51300DC0134 /* QRCodeResultView.swift in Sources */,
 				729294DB2B16E2D700C4BABE /* ContentView.swift in Sources */,
 				729294D92B16E2D700C4BABE /* QR_ValidationApp.swift in Sources */,
+				72746CBF2B19FDCD00079B9B /* CreateEventView.swift in Sources */,
+				72746CC32B1A033600079B9B /* GenerateQRView.swift in Sources */,
+				72AADD522B1B62D00053CD64 /* Home.swift in Sources */,
+				72746CC12B1A01D600079B9B /* EventListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72746CC42B1A059700079B9B /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72746CC52B1A059700079B9B /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72746CC42B1A059700079B9B /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 729294CD2B16E2D700C4BABE /* Project object */;
 }
